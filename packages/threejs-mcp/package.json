@@ -1,20 +1,18 @@
 {
   "name": "@indiavenkatesh/mcp-threejs",
   "version": "1.0.0",
-  "description": "MCP Server for Three.js 3D animation generation — gives LLMs the ability to create stunning 3D animations",
+  "description": "MCP server exposing all Three.js features as tools, with daily docs auto-sync",
   "type": "module",
   "main": "src/index.js",
-  "bin": {
-    "mcp-threejs": "./src/index.js"
-  },
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js"
   },
-  "keywords": ["mcp", "threejs", "3d", "animation", "llm", "model-context-protocol"],
-  "author": "indiavenkatesh",
-  "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0"
-  }
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": ["mcp", "threejs", "3d", "webgl", "animation"],
+  "license": "MIT"
 }
