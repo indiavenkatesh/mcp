@@ -1,6 +1,6 @@
 {
   "name": "@indiavenkatesh/mcp-threejs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "MCP server exposing all Three.js features as tools, with daily auto-synced API docs",
   "type": "module",
   "bin": {
